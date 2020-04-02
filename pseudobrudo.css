@@ -1,3 +1,23 @@
+@media (max-width: 499px) {
+	body {
+		background-color: black;
+		color: white;
+	}
+	a {
+		color: white;
+		font-weight: underline;
+	}
+}
+
+
+@media (min-width: 499px) {
+	a {
+		color: black;
+		font-weight: underline;
+	}
+}
+
+
 #centershit {
 	text-align: center;
 	border-style: solid;
@@ -9,7 +29,7 @@
 	border-style: solid;
 }
 
-.box {
+#box {
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -30,11 +50,6 @@
 	padding: 5px;
 }
 
-a {
-	color: black;
-	font-weight: underline;
-}
-
 footer::after {
 	content: "Quarantime Liquors is not a real business but it should be. This website is neither designed to accept moneys nor to be taken seriously by anyone. Thank you for your consideration.";
 }
@@ -43,4 +58,13 @@ footer {
 	margin: 5px;
 	padding: 5px;
 	border-style: solid;
+}
+
+img {
+	width: 60%;
+	height: auto;
+}
+
+th, td {
+	text-align: center;
 }
